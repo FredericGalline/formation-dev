@@ -1,4 +1,4 @@
-# 🎓 Formation Dev Web — WordPress + React (pilotée par IA)
+# Formation Dev Web — WordPress + React (pilotée par IA)
 
 Une formation de développeur web qui ne vit que dans des fichiers Markdown, et dont
 le **formateur est une IA**. Pas de logiciel à installer, pas de plateforme, pas de
@@ -10,9 +10,9 @@ coince, et il t'accompagne pas à pas.
 spécialisé **WordPress + React**, avec une teinte full-stack. Le parcours est long et
 progressif — c'est assumé.
 
-> 💡 **L'idée de départ :** pendant que l'IA travaille pour toi sur tes autres projets,
+> **L'idée de départ :** pendant que l'IA travaille pour toi sur tes autres projets,
 > profite de ce temps pour **monter en compétence** — plutôt que d'aller scroller sur
-> Instagram. 😏
+> Instagram.
 
 ## À quoi ça sert
 
@@ -32,7 +32,7 @@ Faire monter en compétence un développeur, à son rythme, avec un accompagneme
 Le dépôt sépare deux choses :
 
 - **`programme/`** — le référentiel de la formation : thèmes → chapitres → notions à
-  acquérir, chacune marquée 🎯 fondamentale / 📌 utile / 📖 culture. C'est figé : *le
+  acquérir, chacune marquée par importance (fondamentale / utile / culture). C'est figé : *le
   manuel*. La carte complète est dans [`programme/00-index.md`](programme/00-index.md).
 - **`progression/`** — **ta** mémoire d'apprenant : ton profil, ton état d'avancement,
   ton journal de bord. L'IA y lit **et y écrit** à chaque séance.
@@ -52,17 +52,25 @@ sauvegardée dans des fichiers que tu gardes (et que tu peux commiter).
 
 ### Étapes
 
-1. **« Use this template » → Create a new repository**, et coche **Private**.
-   Tu obtiens **ta** copie personnelle et privée (ton carnet de progression rien qu'à
-   toi). *(Le bouton « Fork » marche aussi, mais un fork de dépôt public reste public :
-   préfère « Use this template » pour rester en privé.)*
-2. **Clone** ta copie privée sur ta machine :
+1. **Crée ta copie personnelle.** Va sur la page du dépôt
+   ([github.com/FredericGalline/formation-dev](https://github.com/FredericGalline/formation-dev)),
+   clique sur le bouton vert **« Use this template » → Create a new repository**, et coche
+   **Private**.
+   *(Lien direct : <https://github.com/FredericGalline/formation-dev/generate>)*
+
+   > **Pourquoi « Use this template » et pas « Fork » ?**
+   > C'est « le fork qui n'en est pas un ». Un **fork** reste **public** et **rattaché**
+   > au dépôt d'origine : ta progression serait visible de tous. **« Use this template »**
+   > crée une copie **indépendante** que tu peux garder **privée** — exactement ce qu'il
+   > faut pour un carnet de progression personnel.
+
+2. **Clone _ta_ copie privée** (l'URL de **ton** nouveau dépôt, pas celle d'origine) :
    ```bash
    git clone https://github.com/<ton-compte>/<ton-repo>.git
    cd <ton-repo>
    ```
 3. **Ouvre le dossier dans VSCode.**
-4. **Lance ton assistant IA** (Claude Code) dans ce dossier.
+4. **Lance Claude Code** dans ce dossier.
 
 ## Utilisation
 
@@ -96,4 +104,4 @@ progression/    → ta mémoire (profil.md · etat.md · competences.md · journ
 
 ---
 
-*Bonne montée en compétence. Et n'oublie pas : l'IA bosse, toi tu apprends. 🚀*
+*Bonne montée en compétence. Et n'oublie pas : l'IA bosse, toi tu apprends.*
